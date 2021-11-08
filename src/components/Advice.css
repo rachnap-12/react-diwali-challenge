@@ -11,7 +11,6 @@ h1 {
   margin-top: 30px;
   background-color: #cf9831;
   display: block;
-  scroll-behavior: inherit;
 }
 
 p {
@@ -19,4 +18,15 @@ p {
   margin-top: 100px;
   font-weight: bold;
   font-size: 25px;
+  color: wheat;
+  animation: glow 2s ease-in-out infinite;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 20px wheat;
+  }
+  to {
+    text-shadow: 0 0 30px wheat, 0 0 10px wheat;
+  }
 }

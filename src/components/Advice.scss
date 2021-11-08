@@ -3,21 +3,33 @@ body{
 }
 
 div{
-    text-align: center;
-}
-
+    text-align: center;   
+  }
+  
+ 
 h1{
     border-radius: 15px;
     margin-top: 30px;
     background-color: rgb(207, 152, 49);
     display: block;
-    scroll-behavior: inherit;
 }
 
 p{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    // font-family: 'Codystar';
     margin-top: 100px;
     font-weight: bold;
     font-size: 25px;
+    color: wheat;
+    animation: glow 2s ease-in-out infinite 
 }
+
+@keyframes glow {
+    from {
+      text-shadow: 0 0 20px wheat;
+    }
+    to {
+      text-shadow: 0 0 30px wheat, 0 0 10px wheat;
+    }
+  }
 
