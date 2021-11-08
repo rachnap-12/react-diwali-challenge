@@ -2,7 +2,6 @@
   "name": "react-mini-challenge",
   "version": "0.1.0",
   "private": true,
-  "homepage" : "https://rachnap-12.github.io/react-diwali-challenge/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
