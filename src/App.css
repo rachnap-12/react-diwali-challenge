@@ -10,3 +10,14 @@ button {
   font-weight: bold;
   color: #060652;
 }
+
+@media only screen and (max-width: 600px) {
+  body {
+    background: red;
+    width: 100%;
+  }
+
+  button {
+    margin-top: 150px;
+  }
+}

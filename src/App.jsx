@@ -11,7 +11,6 @@ const App = () => {
 
   useEffect(() => {
     fetch('https://api.adviceslip.com/advice')
-    // fetch('https://api.lyrics.ovh/v1/Coldplay/Adventure%20of%20a%20Lifetime')
     .then(res => res.json())
     .then(data => setAdvice(data))
     .catch(err => console.log(err))
